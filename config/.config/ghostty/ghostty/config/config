@@ -1,0 +1,15 @@
+# Config
+theme = dark:Atom One Dark,light:Atom One Light
+font-family = "SF Mono"
+font-size = 16
+background-opacity = 0.75
+background-blur = true
+bold-is-bright = true
+desktop-notifications = true
+shell-integration = zsh
+macos-titlebar-style = tabs
+copy-on-select = true
+
+keybind = "alt+right=goto_split:right"
+keybind = "alt+left=goto_split:left"
+
