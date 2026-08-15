@@ -1,0 +1,35 @@
+{
+    "theme_overrides": {
+        "One Light": {
+            "syntax": {
+                "attribute": {
+                    "color": "#1747FFFF"
+                },
+                "comment": {
+                    "color": "#818185FF"
+                },
+                "comment.doc": {
+                    "color": "#818185FF"
+                },
+                "constructor": {
+                    "color": "#1747FFFF"
+                },
+                "function": {
+                    "color": "#1747FFFF"
+                },
+                "keyword": {
+                    "color": "#910999FF"
+                },
+                "operator": {
+                    "color": "#1F75B8FF"
+                },
+                "string": {
+                    "color": "#198F0AFF"
+                },
+                "variable": {
+                    "color": "#011433FF"
+                }
+            }
+        }
+    }
+}

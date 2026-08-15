@@ -1,0 +1,226 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "cli_default_open_behavior": "new_window",
+  "preferred_line_length": 80,
+  // "prettier": {
+  //     "allowed": true,
+  // },
+  "colorize_brackets": false,
+  "inlay_hints": {
+    "show_background": false,
+  },
+  "soft_wrap": "prefer_line",
+  "hard_tabs": false,
+  "vim": {
+    "default_mode": "insert",
+  },
+  "toolbar": {
+    "code_actions": false,
+  },
+  "which_key": {
+    "enabled": false,
+  },
+  "agent_buffer_font_size": 13.0,
+  "cursor_shape": "bar",
+  "multi_cursor_modifier": "alt",
+  "calls": {
+    "share_on_join": false,
+  },
+  "restore_on_startup": "launchpad",
+  "minimap": {
+    "show": "never",
+  },
+  "agent_servers": {
+    "github-copilot-cli": {
+      "type": "registry"
+    },
+    "gemini": {
+      "type": "registry"
+    },
+    "github-copilot": {
+      "type": "registry",
+    },
+  },
+  "buffer_font_weight": 400.0,
+  "tab_bar": {
+    "show": true,
+  },
+  "scrollbar": {
+    "axes": {
+      "horizontal": false, // Show/hide the horizontal scrollbar
+      "vertical": false, // Show/hide the vertical scrollbar
+    },
+  },
+  "fast_scroll_sensitivity": 5.0,
+  "horizontal_scroll_margin": 1.0,
+  "vertical_scroll_margin": 0.0,
+  "ui_font_family": ".ZedSans",
+  "title_bar": {
+    "show_branch_status_icon": true,
+    "show_menus": false,
+    "show_user_picture": true,
+    "show_onboarding_banner": true,
+  },
+  "tabs": {
+    "git_status": true,
+    "close_position": "right",
+    "file_icons": false,
+  },
+  "debugger": {
+    "button": false,
+  },
+  "status_bar": {
+    "active_language_button": true,
+    "cursor_position_button": false,
+  },
+  "search": {
+    "button": true,
+  },
+  "diagnostics": {
+    "button": false,
+  },
+  "collaboration_panel": {
+    "button": false,
+    "dock": "left",
+  },
+  "git_panel": {
+    "tree_view": false,
+    "default_width": 300.0,
+    "button": false,
+    "dock": "left",
+  },
+  "outline_panel": {
+    "button": false,
+    "default_width": 500.0,
+    "dock": "left",
+  },
+  "edit_predictions": {
+    "provider": "zed",
+    "mode": "subtle",
+    "copilot": {
+      "proxy": null,
+      "proxy_no_verify": null,
+    },
+    "enabled_in_text_threads": false,
+  },
+  "icon_theme": {
+    "mode": "light",
+    "light": "Catppuccin Frappé",
+    "dark": "Colored Zed Icons Theme Light",
+  },
+  "agent": {
+    "sidebar_side": "left",
+    "favorite_models": [
+      {
+        "provider": "zed.dev",
+        "model": "gemini-3.1-pro-preview",
+        "enable_thinking": false
+      }
+    ],
+    "default_profile": "write",
+    "dock": "right",
+    "play_sound_when_agent_done": "always",
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "gemini-3.1-pro-preview",
+    },
+  },
+  "project_panel": {
+    "hide_hidden": true,
+    "bold_folder_labels": false,
+    "hide_gitignore": true,
+    "default_width": 500.0,
+    "indent_size": 15.0,
+    "git_status": false,
+    "folder_icons": true,
+    "file_icons": true,
+    "button": false,
+    "entry_spacing": "standard",
+    "dock": "left",
+  },
+  "show_edit_predictions": true,
+  "languages": {
+    "C++": {
+      "hard_tabs": true,
+      "show_edit_predictions": true,
+      "colorize_brackets": true,
+    },
+    "Julia": {
+      "show_edit_predictions": true,
+    },
+    "Python": {
+      "show_edit_predictions": true,
+      "formatter": {
+        "language_server": {
+          "name": "pyright",
+        },
+      },
+      "language_servers": ["pyright", "ruff", "..."],
+    },
+    "Markdown": {
+      "show_edit_predictions": true,
+    },
+    "mojo": {
+      "formatter": {
+        "external": {
+          "command": "pixi",
+          "arguments": ["run", "mojo", "format", "-q", "-"],
+        },
+      },
+    },
+  },
+  "lsp": {
+    "ruff": {
+      "initialization_options": {
+        "settings": {
+          "lineLength": 80,
+          "lint": {
+            "extendSelect": ["I"],
+          },
+        },
+      },
+    },
+  },
+  "vim_mode": true,
+  "base_keymap": "VSCode",
+  "theme": {
+    "light": "One Light",
+    "dark": "One Dark",
+    "mode": "dark",
+  },
+  "active_pane_modifiers": {
+    "inactive_opacity": 0.75,
+  },
+  "buffer_font_family": "SF Mono",
+  "ui_font_size": 16,
+  "buffer_font_size": 15.0,
+  "cursor_blink": true,
+  "relative_line_numbers": "enabled",
+  "tab_size": 4,
+  "terminal": {
+    "toolbar": {
+      "breadcrumbs": false,
+    },
+    "dock": "bottom",
+    "alternate_scroll": "on",
+    "blinking": "terminal_controlled",
+    "copy_on_select": false,
+    "env": {},
+    "font_family": "SF Mono",
+    "font_size": 15.0,
+    "shell": "system",
+    "working_directory": "current_project_directory",
+    "button": true,
+  },
+  // "file_types": {
+  // "C++": ["morpho"],
+  // },
+  "autosave": "on_focus_change",
+}
